@@ -39,8 +39,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.mupen64plusae.v3.alpha.BuildConfig;
-import org.mupen64plusae.v3.alpha.R;
+import es.jdbc.n64retroplus.BuildConfig;
+import es.jdbc.n64retroplus.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

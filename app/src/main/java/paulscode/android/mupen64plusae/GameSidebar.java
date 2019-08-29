@@ -29,7 +29,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.mupen64plusae.v3.alpha.R;
+import es.jdbc.n64retroplus.R;
 
 public class GameSidebar extends MenuListView
 {

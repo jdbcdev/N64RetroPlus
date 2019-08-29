@@ -31,6 +31,6 @@ public class AppMupen64Plus extends MultiDexApplication
         super.onCreate();
         
         // Initialize local crash log system
-        CrashHandler.init( this );
+        // CrashHandler.init( this );
     }
 }

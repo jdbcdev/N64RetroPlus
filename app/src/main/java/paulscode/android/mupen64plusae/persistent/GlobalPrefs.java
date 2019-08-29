@@ -35,7 +35,7 @@ import android.view.WindowManager;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.text.WordUtils;
-import org.mupen64plusae.v3.alpha.R;
+import es.jdbc.n64retroplus.R;
 
 import java.io.File;
 import java.io.IOException;

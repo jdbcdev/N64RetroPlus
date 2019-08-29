@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import org.mupen64plusae.v3.alpha.R;
+import es.jdbc.n64retroplus.R;
 
 import paulscode.android.mupen64plusae.ActivityHelper;
 
