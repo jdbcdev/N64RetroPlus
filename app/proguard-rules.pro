@@ -18,5 +18,5 @@
 
 -dontobfuscate
 
--keep, includedescriptorclasses class es.jdbc.n64retroplus.jni.NativeImports { *; }
--keep, includedescriptorclasses class es.jdbc.n64retroplus.jni.NativeInput { *; }
+-keep, includedescriptorclasses class paulscode.android.mupen64plusae.jni.NativeImports { *; }
+-keep, includedescriptorclasses class paulscode.android.mupen64plusae.jni.NativeInput { *; }

@@ -15,7 +15,7 @@
             android:summary="@string/myKey_summary"
             ...
             />
-        <es.jdbc.n64retroplus.preference.CompatListPreference
+        <paulscode.android.mupen64plusae.preference.CompatListPreference
             ...
             android:entries="@array/myKey_entries"
             android:entryValues="@array/myKey_values"
@@ -47,49 +47,49 @@
     xmlns:mupen64="http://schemas.android.com/apk/res-auto"
     android:key="screenRoot" >
 
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_sliders"
         android:key="emulationProfileDefault"
         android:summary="@string/selectedValue"
         android:title="@string/emulationProfile_title"
         mupen64:allowDisable="false"
         mupen64:managerAction=".profile.ManageEmulationProfilesActivity" />
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_sliders"
         android:key="touchscreenProfileDefault"
         android:summary="@string/selectedValue"
         android:title="@string/touchscreenProfile_title"
         mupen64:allowDisable="false"
         mupen64:managerAction=".profile.ManageTouchscreenProfilesActivity" />
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_sliders"
         android:key="touchscreenProfileDpadDefault"
         android:summary="@string/selectedValue"
         android:title="@string/touchscreenProfileDpad_title"
         mupen64:allowDisable="false"
         mupen64:managerAction=".profile.ManageTouchscreenProfilesActivity" />
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_gamepad"
         android:key="controllerProfile1"
         android:summary="@string/selectedValue"
         android:title="@string/controllerProfile1_title"
         mupen64:allowDisable="true"
         mupen64:managerAction=".profile.ManageControllerProfilesActivity" />
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_gamepad"
         android:key="controllerProfile2"
         android:summary="@string/selectedValue"
         android:title="@string/controllerProfile2_title"
         mupen64:allowDisable="true"
         mupen64:managerAction=".profile.ManageControllerProfilesActivity" />
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_gamepad"
         android:key="controllerProfile3"
         android:summary="@string/selectedValue"
         android:title="@string/controllerProfile3_title"
         mupen64:allowDisable="true"
         mupen64:managerAction=".profile.ManageControllerProfilesActivity" />
-    <es.jdbc.n64retroplus.preference.ProfilePreference
+    <paulscode.android.mupen64plusae.preference.ProfilePreference
         android:icon="@drawable/ic_gamepad"
         android:key="controllerProfile4"
         android:summary="@string/selectedValue"
@@ -114,7 +114,7 @@
         android:key="inputShareController"
         android:summary="@string/inputShareController_summary"
         android:title="@string/inputShareController_title" />
-    <es.jdbc.n64retroplus.preference.PlayerMapPreference
+    <paulscode.android.mupen64plusae.preference.PlayerMapPreference
         android:icon="@drawable/ic_users"
         android:key="playerMap"
         android:summary="@string/playerMap_summary"

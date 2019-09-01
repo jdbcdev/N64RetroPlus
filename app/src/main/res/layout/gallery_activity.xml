@@ -42,7 +42,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true" >
 
-        <es.jdbc.n64retroplus.MenuListView
+        <paulscode.android.mupen64plusae.MenuListView
             android:id="@+id/drawerNavigation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -53,7 +53,7 @@
             android:nextFocusUp="@+id/drawerNavigation"
             android:paddingTop="20dip" />
 
-        <es.jdbc.n64retroplus.GameSidebar
+        <paulscode.android.mupen64plusae.GameSidebar
             android:id="@+id/gameSidebar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

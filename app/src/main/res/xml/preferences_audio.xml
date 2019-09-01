@@ -15,7 +15,7 @@
             android:summary="@string/myKey_summary"
             ...
             />
-        <es.jdbc.n64retroplus.preference.CompatListPreference
+        <paulscode.android.mupen64plusae.preference.CompatListPreference
             ...
             android:entries="@array/myKey_entries"
             android:entryValues="@array/myKey_values"
@@ -47,7 +47,7 @@
     xmlns:mupen64="http://schemas.android.com/apk/res-auto"
     android:key="screenRoot" >
 
-    <es.jdbc.n64retroplus.preference.CompatListPreference
+    <paulscode.android.mupen64plusae.preference.CompatListPreference
         android:defaultValue="@string/audioPlugin_default"
         android:entries="@array/audioPlugin_entries"
         android:entryValues="@array/audioPlugin_values"
@@ -60,7 +60,7 @@
         android:summary="@string/audioSLESTimeStretch_summary"
         android:title="@string/audioSLESTimeStretch_title" />
 
-    <es.jdbc.n64retroplus.preference.SeekBarPreference
+    <paulscode.android.mupen64plusae.preference.SeekBarPreference
         android:defaultValue="10"
         android:key="audioSLESBufferNbr2"
         android:title="@string/audioSLESBufferNbr_title"
@@ -70,7 +70,7 @@
         mupen64:stepSize="1"
         mupen64:units=" buffers" />
 
-    <es.jdbc.n64retroplus.preference.CompatListPreference
+    <paulscode.android.mupen64plusae.preference.CompatListPreference
         android:defaultValue="@string/audioSLESRate_default"
         android:entries="@array/audioSLESRate_entries"
         android:entryValues="@array/audioSLESRate_values"
@@ -78,7 +78,7 @@
         android:summary="@string/selectedValue"
         android:title="@string/audioSLESRate_title" />
 
-    <es.jdbc.n64retroplus.preference.CompatListPreference
+    <paulscode.android.mupen64plusae.preference.CompatListPreference
         android:defaultValue="@string/audioSLESSamplingType_default"
         android:entries="@array/audioSLESSamplingType_entries"
         android:entryValues="@array/audioSLESSamplingType_values"
