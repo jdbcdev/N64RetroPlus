@@ -61,15 +61,18 @@
             <item
                 android:id="@+id/menuItem_clear"
                 android:title="@string/menuItem_Clear"/>
-            <item
+            <!-- <item
                 android:id="@+id/menuItem_logcat"
                 android:title="@string/menuItem_logcat"/>
             <item
                 android:id="@+id/menuItem_hardwareInfo"
-                android:title="@string/menuItem_hardwareInfo"/>
+                android:title="@string/menuItem_hardwareInfo"/> -->
+            <item
+                android:id="@+id/menuItem_controllerDiagnostics"
+                android:title="@string/menuItem_controllerDiagnostics"/>
         </menu>
     </item>
-    <item
+    <!-- <item
         android:id="@+id/menuItem_help"
         android:icon="@drawable/ic_help"
         android:title="@string/menuItem_help">
@@ -104,6 +107,6 @@
     <item
         android:id="@+id/menuItem_localeOverride"
         android:icon="@drawable/ic_location"
-        android:title="@string/menuItem_localeOverride"/>
+        android:title="@string/menuItem_localeOverride"/> -->
 
 </menu>

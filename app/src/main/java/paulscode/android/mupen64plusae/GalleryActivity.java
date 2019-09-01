@@ -637,33 +637,33 @@ public class GalleryActivity extends AppCompatActivity implements GameSidebarAct
         case R.id.menuItem_controllerProfiles:
             ActivityHelper.startManageControllerProfilesActivity(this);
             return true;
-        case R.id.menuItem_faq:
-            Popups.showFaq(this);
-            return true;
-        case R.id.menuItem_helpForum:
-            ActivityHelper.launchUri(this, R.string.uri_forum);
-            return true;
+//        case R.id.menuItem_faq:
+//            Popups.showFaq(this);
+//            return true;
+//        case R.id.menuItem_helpForum:
+//            ActivityHelper.launchUri(this, R.string.uri_forum);
+//            return true;
         case R.id.menuItem_controllerDiagnostics:
             ActivityHelper.startDiagnosticActivity(this);
             return true;
-        case R.id.menuItem_reportBug:
-            ActivityHelper.launchUri(this, R.string.uri_bugReport);
-            return true;
-        case R.id.menuItem_appVersion:
-            Popups.showAppVersion(this);
-            return true;
-        case R.id.menuItem_logcat:
-            ActivityHelper.startLogcatActivity(this);
-            return true;
-        case R.id.menuItem_hardwareInfo:
-            Popups.showHardwareInfo(this);
-            return true;
-        case R.id.menuItem_credits:
-            ActivityHelper.launchUri(GalleryActivity.this, R.string.uri_credits);
-            return true;
-        case R.id.menuItem_localeOverride:
-            mGlobalPrefs.changeLocale(this);
-            return true;
+//        case R.id.menuItem_reportBug:
+//            ActivityHelper.launchUri(this, R.string.uri_bugReport);
+//            return true;
+//        case R.id.menuItem_appVersion:
+//            Popups.showAppVersion(this);
+//            return true;
+//        case R.id.menuItem_logcat:
+//            ActivityHelper.startLogcatActivity(this);
+//            return true;
+//        case R.id.menuItem_hardwareInfo:
+//            Popups.showHardwareInfo(this);
+//            return true;
+//        case R.id.menuItem_credits:
+//            ActivityHelper.launchUri(GalleryActivity.this, R.string.uri_credits);
+//            return true;
+//        case R.id.menuItem_localeOverride:
+//            mGlobalPrefs.changeLocale(this);
+//            return true;
         case R.id.menuItem_extract:
             ActivityHelper.starExtractTextureActivity(this);
             return true;

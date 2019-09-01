@@ -5,23 +5,32 @@
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
     </style>
 
+    <style name="appTheme.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/blue1</item>
+        <item name="android:colorBackground">@color/blue1</item>
+    </style>
+
     <style name="appTheme.Black">
-        <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowBackground">@color/blue1</item>
+        <item name="android:colorBackground">@color/blue1</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
     </style>
     
     <style name="Theme.Mupen64plusaeTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/blue1</item>
+        <item name="android:colorBackground">@color/blue1</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
     </style>
 
     <style name="Theme.AppCompat.Black">
-        <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowBackground">@color/blue1</item>
+        <item name="android:colorBackground">@color/blue1</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
     </style>
 
     <style name="Theme.AppCompat.Black.OverlayActionBar">
+        <item name="android:windowBackground">@color/blue1</item>
+        <item name="android:colorBackground">@color/blue1</item>
         <item name="windowActionBarOverlay">true</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
     </style>
