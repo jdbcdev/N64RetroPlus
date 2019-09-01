@@ -3,7 +3,7 @@
     xmlns:mupen64="http://schemas.android.com/apk/res-auto"
     android:key="screenRoot" >
 
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/displayResolution_default_game"
         android:entries="@array/displayResolutionGame_entries"
         android:entryValues="@array/displayResolutionGame_values"
@@ -17,7 +17,7 @@
         android:key="useDefaultZoom"
         android:summary="@string/displayZoomDefault_summary"
         android:title="@string/displayZoomDefault_title" />
-    <paulscode.android.mupen64plusae.preference.SeekBarPreference
+    <es.jdbc.n64retroplus.preference.SeekBarPreference
         android:defaultValue="100"
         android:icon="@drawable/ic_display"
         android:key="displayZoomSeekGame"
@@ -27,7 +27,7 @@
         mupen64:stepSize="1"
         mupen64:units="%" />
 
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/displayScalingGame_default"
         android:entries="@array/displayScalingGame_entries"
         android:entryValues="@array/displayScalingGame_values"
@@ -36,7 +36,7 @@
         android:summary="@string/selectedValue"
         android:title="@string/displayScaling_title" />
 
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/touchscreenAutoHoldGame_default"
         android:entries="@array/touchscreenAutoHoldGame_entries"
         android:entryValues="@array/touchscreenAutoHoldGame_values"
@@ -45,7 +45,7 @@
         android:icon="@drawable/ic_phone"
         android:title="@string/touchscreenAutoHold_title" />
 
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/relativeAnalog_default"
         android:entries="@array/relativeAnalog_entries"
         android:entryValues="@array/relativeAnalog_values"
@@ -75,14 +75,14 @@
             android:title="@string/categoryCheats_title" />
     </androidx.preference.PreferenceScreen>
 
-    <paulscode.android.mupen64plusae.preference.ProfilePreference
+    <es.jdbc.n64retroplus.preference.ProfilePreference
         android:icon="@drawable/ic_circuit"
         android:key="emulationProfile"
         android:summary="@string/selectedValue"
         android:title="@string/emulationProfile_title"
         mupen64:allowDisable="false"
         mupen64:managerAction=".profile.ManageEmulationProfilesActivity" />
-    <paulscode.android.mupen64plusae.preference.ProfilePreference
+    <es.jdbc.n64retroplus.preference.ProfilePreference
         android:icon="@drawable/ic_phone"
         android:key="touchscreenProfileGame"
         android:summary="@string/selectedValue"

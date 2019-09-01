@@ -15,7 +15,7 @@
             android:summary="@string/myKey_summary"
             ...
             />
-        <paulscode.android.mupen64plusae.preference.CompatListPreference
+        <es.jdbc.n64retroplus.preference.CompatListPreference
             ...
             android:entries="@array/myKey_entries"
             android:entryValues="@array/myKey_values"
@@ -47,19 +47,19 @@
     xmlns:mupen64="http://schemas.android.com/apk/res-auto"
     android:key="screenRoot" >
 
-    <paulscode.android.mupen64plusae.preference.PathPreference
+    <es.jdbc.n64retroplus.preference.PathPreference
         android:defaultValue="@string/pathGameSaves_default"
         android:key="pathGameSaves"
         android:title="@string/pathGameSaves_title"
         mupen64:selectionMode="0" />
 
-    <paulscode.android.mupen64plusae.preference.PathPreference
+    <es.jdbc.n64retroplus.preference.PathPreference
         android:defaultValue="@string/pathGameSaves_default"
         android:key="pathAppData"
         android:title="@string/pathAppData_title"
         mupen64:selectionMode="0" />
 
-    <paulscode.android.mupen64plusae.preference.SeekBarPreference
+    <es.jdbc.n64retroplus.preference.SeekBarPreference
         android:defaultValue="4"
         android:key="gameAutoSaves"
         android:title="@string/GameAutoSavesMax_title"

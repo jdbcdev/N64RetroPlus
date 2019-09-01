@@ -1,6 +1,6 @@
 <class-diagram version="1.0.11" icons="true" automaticImage="PNG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" corner="BOTTOM_RIGHT" language="java" name="paulscode.android.mupen64plusae.game.GameLifecycleHandler" 
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="es.jdbc.n64retroplus.game.GameLifecycleHandler"
     project="mupen64plus" file="/mupen64plus/src/paulscode/android/mupen64plusae/GameLifecycleHandler.java" 
     binary="false">    
     <position height="-1" width="-1" x="501" y="458"/>    
@@ -9,7 +9,7 @@
       <operations public="true" package="false" protected="true" private="false"/>    
     </display>  
   </class>  
-  <class id="2" corner="BOTTOM_RIGHT" language="java" name="paulscode.android.mupen64plusae.game.GameMenuHandler" 
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="es.jdbc.n64retroplus.game.GameMenuHandler"
     project="mupen64plus" file="/mupen64plus/src/paulscode/android/mupen64plusae/GameMenuHandler.java" binary="false">    
     <position height="-1" width="-1" x="257" y="415"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
@@ -17,7 +17,7 @@
       <operations public="true" package="false" protected="true" private="false"/>    
     </display>  
   </class>  
-  <class id="3" corner="BOTTOM_RIGHT" language="java" name="paulscode.android.mupen64plusae.game.GameOverlay" 
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="es.jdbc.n64retroplus.game.GameOverlay"
     project="mupen64plus" file="/mupen64plus/src/paulscode/android/mupen64plusae/GameOverlay.java" binary="false">    
     <position height="-1" width="-1" x="188" y="673"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
@@ -25,7 +25,7 @@
       <operations public="true" package="false" protected="true" private="false"/>    
     </display>  
   </class>
-  <class id="7" corner="BOTTOM_RIGHT" language="java" name="paulscode.android.mupen64plusae.input.AbstractController" 
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="es.jdbc.n64retroplus.input.AbstractController"
     project="mupen64plus" file="/mupen64plus/src/paulscode/android/mupen64plusae/input/AbstractController.java" 
     binary="false">    
     <position height="-1" width="-1" x="813" y="656"/>    
@@ -34,7 +34,7 @@
       <operations public="true" package="false" protected="true" private="false"/>    
     </display>  
   </class>  
-  <class id="8" corner="BOTTOM_RIGHT" language="java" name="paulscode.android.mupen64plusae.game.GameActivityXperiaPlay" 
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="es.jdbc.n64retroplus.game.GameActivityXperiaPlay"
     project="mupen64plus" file="/mupen64plus/src/paulscode/android/mupen64plusae/GameActivityXperiaPlay.java" 
     binary="false">    
     <position height="-1" width="-1" x="358" y="156"/>    
@@ -43,7 +43,7 @@
       <operations public="true" package="false" protected="true" private="false"/>    
     </display>  
   </class>  
-  <class id="9" corner="BOTTOM_RIGHT" language="java" name="paulscode.android.mupen64plusae.game.GameActivity"
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="es.jdbc.n64retroplus.game.GameActivity"
     project="mupen64plus" file="/mupen64plus/src/paulscode/android/mupen64plusae/GameActivity.java" binary="false">    
     <position height="-1" width="-1" x="379" y="190"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      

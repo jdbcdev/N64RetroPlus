@@ -3,25 +3,25 @@
     xmlns:mupen64="http://schemas.android.com/apk/res-auto"
     android:key="screenRoot" >
 
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/r4300Emulator_default"
         android:entries="@array/r4300Emulator_entries"
         android:entryValues="@array/r4300Emulator_values"
         android:key="r4300Emulator"
         android:summary="@string/selectedValue"
         android:title="@string/r4300Emulator_title" />
-    <paulscode.android.mupen64plusae.preference.StringCheckBoxPreference
+    <es.jdbc.n64retroplus.preference.StringCheckBoxPreference
         android:defaultValue="False"
         android:key="DisableExtraMem"
         android:title="@string/disableExtraMem_title" />
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/rsp_default"
         android:entries="@array/rsp_entries"
         android:entryValues="@array/rsp_values"
         android:key="rspSetting"
         android:summary="@string/selectedValue"
         android:title="@string/rsp_title" />
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/videoPlugin_default"
         android:entries="@array/videoPlugin_entries"
         android:entryValues="@array/videoPlugin_values"

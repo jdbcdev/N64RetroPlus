@@ -15,7 +15,7 @@
             android:summary="@string/myKey_summary"
             ...
             />
-        <paulscode.android.mupen64plusae.preference.CompatListPreference
+        <es.jdbc.n64retroplus.preference.CompatListPreference
             ...
             android:entries="@array/myKey_entries"
             android:entryValues="@array/myKey_values"
@@ -47,7 +47,7 @@
     xmlns:mupen64="http://schemas.android.com/apk/res-auto"
     android:key="screenRoot" >
 
-    <paulscode.android.mupen64plusae.preference.SeekBarPreference
+    <es.jdbc.n64retroplus.preference.SeekBarPreference
         android:defaultValue="100"
         android:key="touchscreenScaleV2"
         android:title="@string/touchscreenScale_title"
@@ -55,7 +55,7 @@
         mupen64:minimumValue="50"
         mupen64:stepSize="1"
         mupen64:units="%" />
-    <paulscode.android.mupen64plusae.preference.SeekBarPreference
+    <es.jdbc.n64retroplus.preference.SeekBarPreference
         android:defaultValue="60"
         android:key="touchscreenTransparencyV2"
         android:title="@string/touchscreenTransparency_title"
@@ -73,19 +73,19 @@
         android:defaultValue="true"
         android:key="touchscreenAnimated_v2"
         android:title="@string/touchscreenAnimation_summary" />
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/touchscreenButtonStyle_default"
         android:entries="@array/touchscreenButtonStyle_entries"
         android:entryValues="@array/touchscreenButtonStyle_values"
         android:key="touchscreenSkin"
         android:summary="@string/selectedValue"
         android:title="@string/touchscreenStyle_title" />
-    <paulscode.android.mupen64plusae.preference.PathPreference
+    <es.jdbc.n64retroplus.preference.PathPreference
         android:defaultValue="@string/pathGameSaves_default"
         android:key="touchscreenCustomSkin"
         android:title="@string/touchscreenStyle_entryCustom"
         mupen64:selectionMode="0" />
-    <paulscode.android.mupen64plusae.preference.CompatListPreference
+    <es.jdbc.n64retroplus.preference.CompatListPreference
         android:defaultValue="@string/touchscreenAutoHold_default"
         android:entries="@array/touchscreenAutoHold_entries"
         android:entryValues="@array/touchscreenAutoHold_values"
@@ -102,7 +102,7 @@
         android:key="touchscreenAutoHideEnabled"
         android:summary="@string/touchscreenAutoHideEnabled_summary"
         android:title="@string/touchscreenAutoHideEnabled_title" />
-    <paulscode.android.mupen64plusae.preference.SeekBarPreference
+    <es.jdbc.n64retroplus.preference.SeekBarPreference
         android:defaultValue="5"
         android:key="touchscreenAutoHideSeconds"
         android:title="@string/touchscreenAutoHide_title"
