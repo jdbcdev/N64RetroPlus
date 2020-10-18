@@ -20,7 +20,7 @@
  */
 package paulscode.android.mupen64plusae.preference;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

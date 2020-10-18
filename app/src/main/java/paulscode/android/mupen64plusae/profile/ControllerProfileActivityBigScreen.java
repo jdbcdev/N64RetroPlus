@@ -22,7 +22,7 @@ package paulscode.android.mupen64plusae.profile;
 
 import java.util.Arrays;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import paulscode.android.mupen64plusae.dialog.Prompt;
 import paulscode.android.mupen64plusae.dialog.Prompt.ListItemTwoTextIconPopulator;

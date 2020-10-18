@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import paulscode.android.mupen64plusae.cheat.CheatEditorActivity.CheatAddressData;
 import paulscode.android.mupen64plusae.cheat.CheatEditorActivity.CheatOptionData;

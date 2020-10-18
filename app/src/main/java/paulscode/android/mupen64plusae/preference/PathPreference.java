@@ -33,7 +33,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ArrayAdapter;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import java.io.File;
 import java.util.ArrayList;

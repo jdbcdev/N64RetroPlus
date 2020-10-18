@@ -20,7 +20,7 @@
  */
 package paulscode.android.mupen64plusae.preference;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import paulscode.android.mupen64plusae.compat.AppCompatPreferenceActivity.OnPreferenceDialogListener;
 import android.content.Context;

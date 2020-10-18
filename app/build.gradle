@@ -19,7 +19,7 @@ android {
         checkReleaseBuilds = false
     }
     defaultConfig {
-        applicationId = "es.jdbc.n64retroplus"
+        applicationId = "es.jdlc.retroemulatorn64"
 
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"

@@ -35,7 +35,7 @@ import android.widget.TextView;
 
 import com.bda.controller.Controller;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import java.util.List;
 

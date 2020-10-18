@@ -30,7 +30,7 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 import paulscode.android.mupen64plusae.dialog.ProgressDialog;
 import paulscode.android.mupen64plusae.task.DeleteFilesService;
 import paulscode.android.mupen64plusae.task.DeleteFilesService.DeleteFilesListener;

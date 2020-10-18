@@ -30,7 +30,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Locale;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import paulscode.android.mupen64plusae.cheat.CheatFile.CheatBlock;
 import paulscode.android.mupen64plusae.cheat.CheatFile.CheatCode;

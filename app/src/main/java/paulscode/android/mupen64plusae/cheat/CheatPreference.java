@@ -20,7 +20,7 @@
  */
 package paulscode.android.mupen64plusae.cheat;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import paulscode.android.mupen64plusae.cheat.OptionDialog.Listener;
 import android.app.AlertDialog;

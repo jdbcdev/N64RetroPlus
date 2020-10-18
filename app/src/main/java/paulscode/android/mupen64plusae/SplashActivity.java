@@ -56,7 +56,7 @@ import androidx.tvprovider.media.tv.ChannelLogoUtils;
 import java.io.File;
 import java.util.List;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 import paulscode.android.mupen64plusae.cheat.CheatUtils;
 import paulscode.android.mupen64plusae.persistent.AppData;
 import paulscode.android.mupen64plusae.persistent.GlobalPrefs;

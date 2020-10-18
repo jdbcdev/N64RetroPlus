@@ -27,7 +27,7 @@ import android.os.Bundle;
 import androidx.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

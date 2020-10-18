@@ -2,7 +2,7 @@ package paulscode.android.mupen64plusae.profile;
 
 import java.util.Locale;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import android.app.AlertDialog.Builder;
 import android.content.Context;

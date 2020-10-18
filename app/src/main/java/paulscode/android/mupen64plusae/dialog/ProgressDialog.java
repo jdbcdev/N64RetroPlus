@@ -1,6 +1,6 @@
 package paulscode.android.mupen64plusae.dialog;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

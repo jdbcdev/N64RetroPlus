@@ -33,7 +33,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 
 import org.apache.commons.lang3.ArrayUtils;
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -28,7 +28,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import androidx.fragment.app.Fragment;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 import paulscode.android.mupen64plusae.dialog.ProgressDialog;
 import paulscode.android.mupen64plusae.task.ExtractRomService;
 import paulscode.android.mupen64plusae.task.ExtractRomService.LocalBinder;

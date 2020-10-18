@@ -41,7 +41,7 @@ import java.lang.ref.WeakReference;
 import java.util.Comparator;
 import java.util.List;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 import paulscode.android.mupen64plusae.task.LoadBitmapTask;
 import paulscode.android.mupen64plusae.util.CountryCode;
 

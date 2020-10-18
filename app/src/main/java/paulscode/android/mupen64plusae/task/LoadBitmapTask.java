@@ -23,7 +23,7 @@ package paulscode.android.mupen64plusae.task;
 import java.io.File;
 import java.lang.ref.WeakReference;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;

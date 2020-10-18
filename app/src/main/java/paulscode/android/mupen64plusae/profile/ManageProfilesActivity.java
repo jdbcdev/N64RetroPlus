@@ -39,8 +39,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import es.jdbc.n64retroplus.BuildConfig;
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.BuildConfig;
+import es.jlbc.retroemulatorn64.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

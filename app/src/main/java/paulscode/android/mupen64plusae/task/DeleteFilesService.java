@@ -37,7 +37,7 @@ import android.os.Message;
 import android.os.Process;
 import androidx.core.app.NotificationCompat;
 
-import es.jdbc.n64retroplus.R;
+import es.jlbc.retroemulatorn64.R;
 
 import java.io.File;
 import java.util.ArrayList;
